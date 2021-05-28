@@ -1,0 +1,59 @@
+*{
+		margin:0;
+		padding:0;
+	}
+	#outer{
+		width:450px;
+		height:418px;
+		margin:13px auto 15px auto;
+		position:relative;
+		border:1px solid #ccc;
+		overflow:hidden;
+	}
+	#outer #imgList .pic{
+		display:none; /**图片不显示**/
+	}
+	#outer #imgList .current{
+		display:block; /**第一章图片显示**/
+	}
+	#outer ol{
+		position:absolute;
+		right:10px;
+		list-style:none;
+			
+	}
+	
+	#outer ol .but{
+		width:15px;
+		height:15px;
+		float:left;
+		background-color:black;
+		font-size:12px;
+		color:yellow;
+		text-decoration:none;
+		margin:0 5px;
+		text-align:center;
+		/*设置透明*/
+		opacity:0.5;
+		/*兼容IE8的透明*/
+		filter:alpha(opacity=50);
+	}
+	#outer ol li{
+		cursor:pointer;	/**鼠标样式**/
+	}
+	
+	#outer ol .current{
+		width:15px;
+		height:15px;
+		float:left;
+		background-color:blue;
+		font-size:12px;
+		color:yellow;
+		text-decoration:none;
+		margin:0 5px;
+		text-align:center;
+		/*设置透明*/
+		opacity:0.5;
+		/*兼容IE8的透明*/
+		filter:alpha(opacity=50);
+	}
